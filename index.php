@@ -11,7 +11,7 @@
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-<?
+<?php
  $memcached = new Memcached();
  $memcached->setOption(Memcached::OPT_CLIENT_MODE, Memcached::DYNAMIC_CLIENT_MODE);
  $memcached->addServer('ip-172-31-44-31.us-west-2.compute.internal', 11211);
